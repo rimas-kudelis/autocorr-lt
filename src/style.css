@@ -1,0 +1,64 @@
+html,
+body {
+	background: #f7f0d2;
+	color: #000000;
+	font-size: 15px;
+}
+h1,
+th {
+	color: #990000;
+}
+fieldset,
+table,
+td,
+th {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	padding: 2px;
+}
+tr.accepted {
+	background: #d2f7de;
+}
+tr.rejected {
+	background: #f7ded2;
+}
+td option[value="ACCEPTED"],
+td select[value="ACCEPTED"] {
+	background: #d2f7de;
+}
+td option[value="REJECTED"],
+td select[value="REJECTED"] {
+	background: #f7ded2;
+}
+form {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.col2,
+.col3 {
+	/* font-family: "Courier New", Courier, monospace; */
+	letter-spacing: 1px;
+	white-space: pre;
+}
+.col2 span,
+.col3 span {
+	background: #ffffff;
+}
+th.sorttable_alpha {
+	cursor: pointer;
+}
+input {
+	width: 20em;
+}
+#footer {
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+#smiley {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
